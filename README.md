@@ -65,7 +65,7 @@ scan<0x1234567>                  # Raw scan + caller analysis
 range<0xSTART,0xEND>             # Disassemble address range
 vft<19ClassName><0>              # Decompile vtable slot 0
 vft<19ClassName><5><3>           # Slot 5, hint 3 params
-Player::tick                   # String xref + decompile
+Player::tick                     # String xref + decompile
 strfn<"Player::tick">            # String xref + trace BL receiver
 sig<AA ?? BB ?? CC>              # Byte pattern scan
 struct<Level><0x180>             # Find all accesses to offset +0x180
