@@ -1,0 +1,131 @@
+/* @brief Maximum number of instructions to disassemble per function.
+         Increase for larger functions, decrease for speed. */
+max_fn_insns = 2000
+
+/* @brief Maximum callers to process for the xref function. */
+max_callers = 1
+
+/* @brief Maximum direct callees (BL/B targets) inside the xref function. */
+max_callees = 1
+
+/* @brief Maximum sub-callers (callers of callers). */
+max_sub_callers = 1
+
+/* @brief Maximum sub-callees (callees of callees). */
+max_sub_callees = 1
+
+/* @brief Maximum sub-sub-callees (depth 3 callees). */
+max_sub_sub_callees = 1
+
+/* @brief Max recursive depth for callee disasm.
+         1 = direct callees only
+         2 = callees + their callees
+         3 = + one more level */
+callee_depth = 1
+
+/* @brief Max recursive depth for caller disasm.
+         1 = direct callers only
+         2 = callers + their callers */
+caller_depth = 1
+
+/* @brief Max bytes to read when resolving a string from ADRP+ADD pair. */
+max_string_len = 400
+
+/* @brief Minimum string length to annotate. Filters 1-2 char noise. */
+min_string_len = 3
+
+/* @brief If 1, annotate strings inline on ADD instructions. */
+annotate_inline_strings = 1
+
+/* @brief If 1, show addresses of omitted calls when depth/limit reached. */
+show_sub_call_addrs = 1
+
+/* @brief Seconds to sleep after lib load before scanning starts.
+         Increase if Minecraft hasn't mapped libminecraftpe.so yet. */
+startup_delay_secs = 3
+
+/* @brief Path to the input file. One entry per line.
+         Supported entry formats:
+           SomeString                       -> string xref scan
+           14ClientInstance                 -> RTTI name xref + typeinfo layout
+           fn<0xADDR>                       -> disasm function directly
+           add<0xADDR>                      -> resolve func start then disasm
+           scan<0xADDR>                     -> raw disasm from addr
+           range<0xSTART,0xEND>             -> disasm VA range
+           sig<XX ?? XX ...>                -> signature scan
+           vft<ClassName><slotIndex>        -> vtable slot lookup + decompile
+           vft<ClassName><slotIndex><N>     -> same + hint N params to caller
+                                               x0=this, x1..xN = args
+           Examples:
+             vft<ClientInstance><187>
+             vft<HudScreenController><5>
+             vft<ClientInstance><152><3>    -> slot 152, hint 3 params
+             vft<ClientInstance><152><0>    -> slot 152, hint no params (getter)
+*/
+input_path = /storage/emulated/0/Android/media/org.levimc.launcher/kurumi/zInput.txt
+
+/* @brief Path to the strings/targets input file. */
+strings_path = /storage/emulated/0/Android/media/org.levimc.launcher/kurumi/zInput.txt
+
+/* @brief Directory where output files are written. */
+out_dir = /storage/emulated/0/Android/media/org.levimc.launcher/kurumi/
+
+/* @brief Output file name inside out_dir. */
+out_file = zaphkiel_out.txt
+
+/* @brief Dump RTTI class names to rtti_dump.txt (true/false). */
+dump_rtti = false
+
+/* @brief Dump .dynsym exported symbols to dynsym_dump.txt (true/false). */
+dump_dynsym = false
+
+/* @brief Dump all readable strings found in live memory to live_strings.txt (true/false).
+         Warning: can be large. */
+dump_live_strings = false
+
+/* @brief Dump vtable pointer arrays found in live memory to vtable_dump.txt (true/false). */
+dump_vtables = false
+
+/* @brief Full lib decompile — disassemble every function found in text segment.
+         Output goes to zaphkiel_fullout.txt.
+         WARNING: 336MB lib = millions of instructions. Use the limits below. */
+full_decompile = false
+
+/* @brief Max functions to decompile in full mode. 0 = no limit (very slow). */
+full_decompile_max_fns = 10000
+
+/* @brief Max instructions per function in full decompile mode. */
+full_decompile_max_insns = 60
+
+/* @brief Only decompile functions with at least this many instructions (filters padding/stubs). */
+full_decompile_min_insns = 4
+
+/* @brief Dump all extracted strings to str.txt with demangling + deobfuscation. */
+get_strings = false
+
+/* @brief Minimum length for string extraction. */
+get_strings_min_len = 4
+
+/* @brief Include demangled C++ names in str.txt (true/false). */
+get_strings_demangle = true
+
+/* @brief Try to detect and decode simple obfuscated strings (XOR patterns, hex-encoded). */
+get_strings_deobfuscate = true
+
+/* @brief Output file for string extraction. */
+get_strings_out = str.txt
+
+/* @brief Output file for full decompile. */
+full_decompile_out = zaphkiel_fullout.txt
+
+/* @brief Separate output files for each feature (true) or merge all into zaphkiel_out.txt (false). */
+separate_dump_files = true
+
+/* @brief Path to signature generator targets file.
+         One entry per line. Supported formats:
+           fn<0xADDR>    -> generate sig starting from function VA
+           add<0xADDR>   -> generate sig from any address in text segment */
+sig_targets_path = /storage/emulated/0/Android/media/org.levimc.launcher/kurumi/sig_targets.txt
+
+/* @brief Directory containing .h/.hpp header files for struct annotation. */
+headers_dir = /storage/emulated/0/Android/media/org.levimc.launcher/kurumi/headers/
