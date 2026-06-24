@@ -1,0 +1,236 @@
+ZAPHKIEL SOFTWARE LICENSE AND END USER AGREEMENT
+
+Version 1.0 — Effective Date: June 2026
+
+IMPORTANT: BY DOWNLOADING, INSTALLING, COPYING, OR OTHERWISE USING THIS
+SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE
+LEGALLY BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, OR USE THIS SOFTWARE.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Software" refers to the compiled binary library known as "libZaphkiel.so",
+including all documentation, configuration files, signature databases, and any
+accompanying materials distributed by the Licensor.
+
+"Licensor" refers to the original author(s) and copyright holder(s) of the
+Software.
+
+"User" or "You" refers to any individual or entity that downloads, installs,
+copies, or otherwise uses the Software.
+
+"Target Application" refers to any third-party software, game, or binary that
+the User chooses to analyze using the Software.
+
+================================================================================
+2. COPYRIGHT AND OWNERSHIP
+================================================================================
+
+The Software is the exclusive property of the Licensor and is protected by
+international copyright laws, trade secret laws, and treaty provisions. All
+title, ownership rights, and intellectual property rights in and to the
+Software remain with the Licensor. The Software is licensed, not sold.
+
+================================================================================
+3. GRANT OF LICENSE
+================================================================================
+
+Subject to strict compliance with this Agreement, the Licensor grants You a
+personal, non-exclusive, non-transferable, non-sublicensable, revocable license
+to use the Software solely for:
+
+  (a) Personal educational and research purposes;
+  (b) Static and dynamic analysis of software You have lawful access to;
+  (c) Development of modifications for software where such modification is
+      expressly permitted by the Target Application's terms of service.
+
+This license does not grant You any rights to the source code, design,
+architecture, or algorithms embodied in the Software.
+
+================================================================================
+4. RESTRICTIONS AND PROHIBITED USES
+================================================================================
+
+You may NOT, directly or indirectly:
+
+  4.1 Reverse engineer, decompile, disassemble, or otherwise attempt to
+      derive the source code, object code, or underlying structure of the
+      Software, except to the extent expressly permitted by applicable law
+      notwithstanding this limitation;
+
+  4.2 Modify, translate, adapt, or create derivative works based upon the
+      Software or any part thereof;
+
+  4.3 Distribute, sublicense, lease, rent, loan, sell, or otherwise transfer
+      the Software or any copy thereof to any third party;
+
+  4.4 Remove, alter, or obscure any copyright, trademark, or proprietary
+      notices contained within the Software;
+
+  4.5 Use the Software to develop, distribute, or enable cheating, hacking,
+      unauthorized modification, or circumvention of security measures in
+      any third-party software, game, or online service;
+
+  4.6 Use the Software in any manner that violates the terms of service,
+      end-user license agreement, or acceptable use policy of any Target
+      Application;
+
+  4.7 Use the Software for any illegal purpose or in violation of any
+      applicable local, state, national, or international law;
+
+  4.8 Use the Software to infringe upon the intellectual property rights of
+      any third party, including but not limited to copyright, trademark,
+      patent, or trade secret rights;
+
+  4.9 Publish, share, or distribute signatures, patterns, or analysis
+      outputs derived from the Software if such distribution would facilitate
+      unauthorized modification of commercial software;
+
+  4.10 Use the Software in automated systems, high-volume environments, or
+       commercial services without express written authorization from the
+       Licensor.
+
+================================================================================
+5. THIRD-PARTY SOFTWARE AND INTELLECTUAL PROPERTY
+================================================================================
+
+5.1 The Software is an independent educational and research tool. It is NOT
+affiliated with, endorsed by, sponsored by, or approved by any third-party
+software developer, publisher, or platform holder, including but not limited to
+Mojang Studios, Microsoft Corporation, or any of their subsidiaries or affiliates.
+
+5.2 All trademarks, service marks, trade names, game assets, and intellectual
+property referenced by user-generated content (including but not limited to
+class names, function signatures, string literals, and byte patterns) remain the
+sole property of their respective owners. The inclusion of such references
+within the Software's output does not constitute endorsement, affiliation, or
+authorization by the rights holders.
+
+5.3 The Licensor assumes no responsibility for User-generated targets,
+configurations, or analysis outputs. You are solely responsible for ensuring
+that Your use of the Software complies with all applicable third-party
+agreements and intellectual property laws.
+
+================================================================================
+6. DISCLAIMER OF WARRANTIES
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT.
+
+THE LICENSOR DOES NOT WARRANT THAT:
+  (a) THE SOFTWARE WILL MEET YOUR REQUIREMENTS;
+  (b) THE SOFTWARE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE;
+  (c) THE RESULTS OBTAINED FROM THE USE OF THE SOFTWARE WILL BE ACCURATE OR
+      RELIABLE;
+  (d) ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED.
+
+================================================================================
+7. LIMITATION OF LIABILITY
+================================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO:
+
+  - LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES;
+  - DAMAGES ARISING FROM ACCOUNT SUSPENSION, BAN, OR TERMINATION BY ANY
+    THIRD-PARTY SERVICE;
+  - DAMAGES ARISING FROM LEGAL ACTION, CIVIL LIABILITY, OR REGULATORY
+    PENALTIES;
+  - DAMAGES ARISING FROM UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR
+    TRANSMISSIONS OR DATA;
+
+EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+THE TOTAL LIABILITY OF THE LICENSOR FOR ANY CLAIM ARISING OUT OF OR RELATING
+TO THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE
+(US$0.00 IF OBTAINED FREE OF CHARGE).
+
+================================================================================
+8. INDEMNIFICATION
+================================================================================
+
+You agree to indemnify, defend, and hold harmless the Licensor, its affiliates,
+officers, directors, employees, agents, and licensors from and against any and
+all claims, liabilities, damages, losses, costs, expenses, or fees (including
+reasonable attorneys' fees) arising from:
+
+  (a) Your use of the Software;
+  (b) Your violation of this Agreement;
+  (c) Your violation of any third-party right, including intellectual property
+      or privacy rights;
+  (d) Your violation of any applicable law or regulation.
+
+================================================================================
+9. TERMINATION
+================================================================================
+
+9.1 This Agreement is effective until terminated. The Licensor may terminate
+this Agreement immediately and without notice if You fail to comply with any
+term or condition herein.
+
+9.2 Upon termination, all licenses granted to You under this Agreement shall
+immediately cease, and You must:
+  (a) Cease all use of the Software;
+  (b) Destroy all copies of the Software in Your possession or control;
+  (c) Certify such destruction to the Licensor upon request.
+
+9.3 Sections 4, 5, 6, 7, 8, 10, and 11 shall survive termination of this
+Agreement.
+
+================================================================================
+10. EXPORT CONTROL
+================================================================================
+
+You agree to comply with all applicable export and re-export control laws and
+regulations, including but not limited to the Export Administration Regulations
+(EAR) maintained by the U.S. Department of Commerce and trade and economic
+sanctions maintained by the U.S. Treasury Department's Office of Foreign Assets
+Control (OFAC). You represent that You are not located in, under the control of,
+or a national or resident of any embargoed country or designated terrorist
+supporting country.
+
+================================================================================
+11. GOVERNING LAW AND JURISDICTION
+================================================================================
+
+This Agreement shall be governed by and construed in accordance with the laws of
+the jurisdiction in which the Licensor resides, without regard to its conflict
+of law principles. Any dispute arising under this Agreement shall be subject to
+the exclusive jurisdiction of the courts in that jurisdiction.
+
+================================================================================
+12. SEVERABILITY
+================================================================================
+
+If any provision of this Agreement is held to be invalid, illegal, or
+unenforceable by a court of competent jurisdiction, such provision shall be
+modified to the minimum extent necessary to make it valid and enforceable, or if
+modification is not possible, severed from this Agreement, and the remaining
+provisions shall continue in full force and effect.
+
+================================================================================
+13. ENTIRE AGREEMENT
+================================================================================
+
+This Agreement constitutes the entire agreement between You and the Licensor
+regarding the Software and supersedes all prior or contemporaneous agreements,
+representations, warranties, and understandings, whether written or oral.
+
+================================================================================
+14. CONTACT AND NOTICE
+================================================================================
+
+For questions regarding this license, to report violations, or if You are a
+rights holder who believes this Software infringes upon Your intellectual
+property, contact the repository maintainers through the GitHub Issues or
+Discussions page associated with this repository.
+
+================================================================================
+
+Copyright (c) 2026 VCX. All Rights Reserved.
