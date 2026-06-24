@@ -1,0 +1,10 @@
+SPDX-License-Identifier: LicenseRef-Zaphkiel-EULA-1.0
+
+License Name: Zaphkiel End User License Agreement 1.0
+
+Extracted Text: See LICENSE.txt for the full license terms.
+
+License Comment: This software is proprietary and closed-source. The compiled
+binary (libZaphkiel.so) is distributed under a custom End User License Agreement.
+No source code is provided. Redistribution, reverse engineering, and unauthorized
+modification are prohibited. See LICENSE.txt for complete terms and conditions.

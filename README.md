@@ -1,4 +1,5 @@
 # Zaphkiel
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE.txt)
 
 A reverse engineering framework for Android via LeviLauncher. Injected as `libZaphkiel.so`, it performs static analysis on target binaries without requiring root.
 
